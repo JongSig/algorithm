@@ -24,6 +24,6 @@ void main(void){
 		if(n == 0)
 			break;
 		printf("\n Ans : %d is%s prime number"
-				,n , is_prime(n) ? " " : " not");
+				,n , is_prime(n) ? "" : " not");
 	}
 }
